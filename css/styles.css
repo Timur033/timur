@@ -12,6 +12,10 @@ body {
     
 
 }
+img {
+    max-width: 100%;
+
+}
 a {
     text-decoration: none;
     color: #fff;
@@ -56,18 +60,44 @@ a:visited {
     padding: 30px 0;
 
 }
-.logo {
-}
+/* .logo {
+    /
+} */
 .menu {
     display: flex;
     gap: 30px;
 
 }
-.phone {
-}
+/* .phone {
+} */
 .title {
     font-size: 26px;
     text-align: center;
     padding: 50px 0;
     font-weight: 900;
+}
+/* gallery */
+.gallery {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+
+}
+.gallery__item {
+    border-radius: 10px;
+    overflow: hidden;
+
+
+} 
+.gallery__item img {
+    height: 100%;
+}
+.footer {
+    background-color: rgb(48, 45, 45);
+    color: aliceblue;
+    font-size: 12px;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 100px;
 }
